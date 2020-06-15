@@ -1,0 +1,1 @@
+wmic Path win32_process Where "Caption Like 'mysqld.exe'" Call Terminate
